@@ -1,4 +1,4 @@
-package com.atakanbasol.sayitahminoyunu;
+package com.atakanbasol.masking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,13 +24,13 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 }
 )
 //@SpringBootApplication
-public class SayiTahminOyunu {
+public class Masking {
 
     public static void main(String[] args) {
 
         //Disables headless JOptionPane
         System.setProperty("java.awt.headless", "false");
 
-        SpringApplication.run(SayiTahminOyunu.class, args);
+        SpringApplication.run(Masking.class, args);
     }
 }
